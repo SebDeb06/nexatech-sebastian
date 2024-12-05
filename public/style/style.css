@@ -32,6 +32,72 @@ body {
     font-style: normal;
     font-size: 20px;
 }
+header{
+	width: 100vw;
+	height: 10vh;
+	background-color: lightskyblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button-style{
+	width: 10vw;
+	height: 5vh;
+	border: 0px;
+	background-color: lightskyblue;
+	font-size: medium;
+}
+
+.button-style:hover{
+	cursor: pointer;
+	border-bottom: 1px solid black;
+	font-size: large;
+}
+
+.button-style:active{
+	font-size: medium;
+}
+
+.top-menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 10vh;
+}
+
+.icon{
+	height: 10vh;
+	margin-right: 5vw;
+	margin-left: -10vw;
+}
+
+main{
+	width: 100vw;
+	height: 80vh;
+	background-color: white;
+}
+
+footer{
+	width: 100vw;
+	height: 10vh;
+	background-color: lightskyblue;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.bottom{
+	width: 25vw;
+	height: 7.5vh;
+	gap: .5vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
 ol, ul {
 	list-style: none;
 }

@@ -42,8 +42,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'view', 'index.html'));
 });
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'view', 'hjelpside.html'));
+app.get('/hjelp', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'view', 'hjelpeside.html'));
 });
 
 // Eksempel routing når noen skriver /hei inn i url-linjen får de Yo tilbake
